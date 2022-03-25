@@ -1,5 +1,3 @@
 *.swp
 /bin/*
-/input_pa1/
-/output_pa1/
 /src/*.o
