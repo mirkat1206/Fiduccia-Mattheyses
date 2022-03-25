@@ -3,7 +3,7 @@ Programming Asignment #1 of Physical Design for Nanometer ICs, Spring 2022
 
 |系級|學號|姓名|日期|
 |:---:|:---:|:---:|:---:|
-|電子所碩一|r10943109|Shiuan-Yun Ding|2022-3-26|
+|LOL|UWU|OUO|2022-3-26|
 
 ## How to compile?
 
