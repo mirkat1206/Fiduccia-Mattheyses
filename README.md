@@ -93,6 +93,20 @@ G2 3
 c3 c4 c6 ;
 ```
 
+### Experiment
+The `Execution Time` refers to the original Fiduccia-Mattheyses Heuristic; the `Execution Time(opt.)` refers to my futher timing optimization version.
+
+Note that my further optimization does not hurt the performance at all.
+
+|Test Case|# of Cells|# of Nets|Initial Cutsize|Final Cutsize|Execution Time|Execution Time(opt.)|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|input_0|150750|166998|65799|12742|2.02 sec|0.78 sec|
+|input_1|3000|5000|2400|1692|0.00 sec|0.00 sec|
+|input_2|7000|10000|4470|2198|0.06 sec|0.04 sec|
+|input_3|66666|88888|47238|27845|7.19 sec|7.12 sec|
+|input_4|150750|166998|82801|45045|38.02 sec|26.03 sec|
+|input_5|382489|483599|251653|143932|210.19 sec|171.71 sec|
+
 ## Roadmap
 - [x] Understand F-M Partitioning Heuristic
 - [x] Define data structures
@@ -119,17 +133,3 @@ c3 c4 c6 ;
         - [x] UpdateCellGain()
         - [x] UndoMoves()
     - [x] Timing control
-
-### Experiment
-The `Execution Time` refers to the original Fiduccia-Mattheyses Heuristic; the `Execution Time(opt.)` refers to my futher timing optimization version.
-
-Note that my further optimization does not hurt the performance at all.
-
-|Test Case|# of Cells|# of Nets|Initial Cutsize|Final Cutsize|Execution Time|Execution Time(opt.)|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|input_0|150750|166998|65799|12742|2.02 sec|0.78 sec|
-|input_1|3000|5000|2400|1692|0.00 sec|0.00 sec|
-|input_2|7000|10000|4470|2198|0.06 sec|0.04 sec|
-|input_3|66666|88888|47238|27845|7.19 sec|7.12 sec|
-|input_4|150750|166998|82801|45045|38.02 sec|26.03 sec|
-|input_5|382489|483599|251653|143932|210.19 sec|171.71 sec|
