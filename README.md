@@ -5,7 +5,7 @@ Programming Asignment #1 of Physical Design for Nanometer ICs, Spring 2022
 |:---:|:---:|:---:|:---:|
 |電子碩一|r10943109|Shiuan-Yun Ding|2022-3-26|
 
-[HackMD 易讀版 Report](https://hackmd.io/@mirkat1206/S1FBD6cGq/%2FkKMXeZCEQSCW_zp3-6WNWg)
+[Read my report on HackMD](https://hackmd.io/@mirkat1206/S1FBD6cGq/%2FkKMXeZCEQSCW_zp3-6WNWg)
 
 ## How to compile?
 
